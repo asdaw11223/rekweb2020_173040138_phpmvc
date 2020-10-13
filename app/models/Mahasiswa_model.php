@@ -54,7 +54,7 @@ class Mahasiswa_model{
                     nama =:nama,
                     nrp =:nrp,
                     email =:email,
-                    jurusan =:jurusan,
+                    jurusan =:jurusan
                     WHERE id=:id";
 
         $this->db->query($query);
